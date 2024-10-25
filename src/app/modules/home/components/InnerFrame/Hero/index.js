@@ -14,7 +14,7 @@ const Hero = () => {
                 </LinkButton>
                 <div className="available-component">
                     <DotNotification2 />
-                    <span>Available now</span>
+                    <span className="text-xs">Available now</span>
                 </div>
             </div>
             <img className="image-left" src={TailImage.src} />
