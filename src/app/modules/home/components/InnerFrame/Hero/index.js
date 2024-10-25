@@ -1,6 +1,7 @@
-import { LinkButton } from "../Elements";
+import { LinkButton } from "@/app/modules/home/components/Elements";
 import TailImage from "@/app/modules/home/assets/images/tail.svg";
 import BallImage from "@/app/modules/home/assets/images/ball.svg";
+import { DotNotification2 } from "@/app/modules/core/components/Lottie";
 
 const Hero = () => {
     return (
@@ -12,6 +13,7 @@ const Hero = () => {
                     See plans
                 </LinkButton>
                 <div className="available-component">
+                    <DotNotification2 />
                     <span>Available now</span>
                 </div>
             </div>
