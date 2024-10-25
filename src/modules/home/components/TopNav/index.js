@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/app/modules/home/assets/images/logo.svg";
-import { Smile } from "@/app/modules/core/components/Lottie";
+import Logo from "@/modules/home/assets/images/logo.svg";
+import { Smile } from "@/modules/core/components/Lottie";
 import "./style.scss";
 
 const TopNav = () => {

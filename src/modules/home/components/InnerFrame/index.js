@@ -1,4 +1,4 @@
-import BgImage from "@/app/modules/home/assets/images/dots.svg";
+import BgImage from "@/modules/home/assets/images/dots.svg";
 import "./style.scss";
 
 const InnerFrame = ({ children }) => {

@@ -2,7 +2,7 @@ import "./style.scss";
 
 const LinkButton = ({ asBlock = false, ...props }) => {
     const aEl = (
-        <a className="link-button" {...props} />
+        <a className="button link-button" {...props} />
     );
 
     return asBlock ? (

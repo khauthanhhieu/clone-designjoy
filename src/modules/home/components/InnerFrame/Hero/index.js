@@ -1,7 +1,7 @@
-import { LinkButton } from "@/app/modules/home/components/Elements";
-import TailImage from "@/app/modules/home/assets/images/tail.svg";
-import BallImage from "@/app/modules/home/assets/images/ball.svg";
-import { DotNotification2 } from "@/app/modules/core/components/Lottie";
+import { LinkButton } from "@/modules/home/components/Elements";
+import TailImage from "@/modules/home/assets/images/tail.svg";
+import BallImage from "@/modules/home/assets/images/ball.svg";
+import { DotNotification2 } from "@/modules/core/components/Lottie";
 
 const Hero = () => {
     return (
