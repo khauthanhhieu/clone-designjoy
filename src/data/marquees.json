@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Buy me a coffee",
+        "imageSrc": "brand-logo-1.svg"
+    },
+    {
+        "id": 2,
+        "name": "Flowbase",
+        "imageSrc": "brand-logo-2.svg"
+    },
+    {
+        "id": 3,
+        "name": "xfinity",
+        "imageSrc": "brand-logo-3.svg"
+    },
+    {
+        "id": 4,
+        "name": "nectar",
+        "imageSrc": "brand-logo-4.svg"
+    },
+    {
+        "id": 5,
+        "name": "beehiiv",
+        "imageSrc": "brand-logo-5.svg"
+    },
+    {
+        "id": 6,
+        "name": "Memberstack",
+        "imageSrc": "brand-logo-6.svg"
+    },
+    {
+        "id": 7,
+        "name": "cometchat",
+        "imageSrc": "brand-logo-7.svg"
+    }
+]

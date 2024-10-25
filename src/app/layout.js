@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const brockmann = localFont({
-    src: "./fonts/Brockmann.woff",
+    src: "../fonts/Brockmann.woff",
     variable: "--font-brockmann",
     weight: "100 900",
 });
