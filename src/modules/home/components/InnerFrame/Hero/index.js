@@ -2,6 +2,7 @@ import { LinkButton } from "@/modules/home/components/Elements";
 import TailImage from "@/modules/home/assets/images/tail.svg";
 import BallImage from "@/modules/home/assets/images/ball.svg";
 import { DotNotification2 } from "@/modules/core/components/Lottie";
+import LogoMarquee from "./LogoMarquee";
 
 const Hero = () => {
     return (
@@ -19,6 +20,7 @@ const Hero = () => {
             </div>
             <img className="image-left" src={TailImage.src} />
             <img className="image-right" src={BallImage.src} />
+            <LogoMarquee />
         </div>
     )
 }
