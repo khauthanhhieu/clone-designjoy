@@ -11,9 +11,8 @@ const LogoMarquee = async () => {
             <div className="logo-marquee__dock">
                 <Marquee autoFill>
                     {data.map((logo) => (
-                        <div className="h-5 flex">
+                        <div key={logo.id} className="h-5 flex">
                             <img
-                                key={logo.id}
                                 alt={logo.name}
                                 src={`${process.env.URL}/images/logo-marquees/${logo.image}`}
                                 className="h-full mx-5"

@@ -14,3 +14,6 @@ const InnerFrame = ({ children }) => {
 export default InnerFrame;
 
 export { default as Hero } from "./Hero";
+export { default as Slider } from "./Slider";
+export { default as HowItWorks } from "./HowItWorks";
+export { default as Quote } from "./Quote";

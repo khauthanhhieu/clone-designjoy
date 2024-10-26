@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "myte",
+        "image": "slider-item-1.png"
+    },
+    {
+        "id": 2,
+        "name": "loop",
+        "image": "slider-item-2.png"
+    },
+    {
+        "id": 3,
+        "name": "level-up",
+        "image": "slider-item-3.png"
+    },
+    {
+        "id": 4,
+        "name": "besiide",
+        "image": "slider-item-4.png"
+    },
+    {
+        "id": 5,
+        "name": "New Campus",
+        "image": "slider-item-5.png"
+    }
+]
