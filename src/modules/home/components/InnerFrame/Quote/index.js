@@ -4,6 +4,7 @@ import DividerImage from "@/modules/home/assets/images/divider.svg"
 import { LinkButton } from "@/modules/home/components/Elements";
 import LeftImage from "@/modules/home/assets/images/Group-78.svg";
 import RightImage from "@/modules/home/assets/images/Group-61.svg";
+import KevinImage from "@/modules/home/assets/images/Group 8-p-500.png";
 
 const Quote = () => {
     return (
@@ -35,8 +36,35 @@ const Quote = () => {
                     </p>
                     <LinkButton asBlock>See plans</LinkButton>
                 </div>
-                <div className="detail">
-
+                <div className="grid lg:grid-cols-2 gap-14 mt-20">
+                    <div className="bg-white rounded-xl p-12">
+                        <p className="sm:max-w-[430px]">“Design is everything, and these guys have nailed it.”</p>
+                        <div className="flex justify-between items-end">
+                            <div>
+                                <p className="text-sm m-0">
+                                    <span className="block">Kevin O'Leary</span>
+                                    <span className="block">Shark Tank</span>
+                                </p>
+                            </div>
+                            <div className="w-1/2">
+                                <img src={KevinImage.src} alt="Kevin O'Leary" className="max-w-full" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-10">
+                        <div>
+                            <h5 className="font-medium">Totally async</h5>
+                            <p className="text-base">Don't like meetings? We don't either; so much so that we've outlawed them completely.</p>
+                        </div>
+                        <div>
+                            <h5 className="font-medium">Manage with Trello</h5>
+                            <p className="text-base">Manage your design board using Trello. View active, queued and completed tasks with ease.</p>
+                        </div>
+                        <div>
+                            <h5 className="font-medium">Invite your team</h5>
+                            <p className="text-base">Invite your entire team, so anyone can submit requests and track their progress.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <img className="image-left" src={LeftImage.src} />
