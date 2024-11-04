@@ -1,6 +1,6 @@
 import Image from "next/image";
 import WebflowImage from "@/modules/home/assets/images/Webflow.svg";
-import DividerImage from "@/modules/home/assets/images/divider.svg"
+import DividerImage from "@/modules/home/assets/images/divider.svg";
 import { LinkButton } from "@/modules/home/components/Elements";
 import LeftImage from "@/modules/home/assets/images/Group-78.svg";
 import RightImage from "@/modules/home/assets/images/Group-61.svg";

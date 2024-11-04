@@ -203,4 +203,64 @@
             top: 13%;
         }
     }
+
+    .benefits {
+        position: relative;
+        padding: 0 5% 40px;
+
+        .header {
+            z-index: 2;
+            text-align: center;
+            max-width: 700px;
+            margin: auto;
+
+            &__sub {
+                max-width: 600px;
+                margin: auto;
+            }
+        }
+
+        &__grid {
+            @apply grid grid-cols-3 gap-14 mt-14 text-center;
+
+            &__icon {
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: 50%;
+
+                width: 120px;
+                height: 120px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 24px;
+
+                display: flex;
+                justify-content: center;
+
+                &.dashj {
+                    background-image: url(/images/svg/backdrop-21.svg);
+                }
+
+                &.flash {
+                    background-image: url(/images/svg/backdrop-59.svg);
+                }
+
+                &.money {
+                    background-image: url(/images/svg/backdrop-60.svg);
+                }
+
+                &.tick {
+                    background-image: url(/images/svg/backdrop-4.svg);
+                }
+
+                &.arrow {
+                    background-image: url(/images/svg/backdrop-28.svg);
+                }
+
+                &.finger {
+                    background-image: url(/images/svg/backdrop-591.svg);
+                }
+            }
+        }
+    }
 }
