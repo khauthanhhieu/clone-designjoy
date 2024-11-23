@@ -1,0 +1,52 @@
+[
+    {
+        "label": "Landing pages",
+        "bgColor": "#ff90e7",
+        "color": "white"
+    },
+    {
+        "label": "Mobile apps",
+        "bgColor": "#3e89ff",
+        "color": "white"
+    },
+    {
+        "label": "Logos",
+        "bgColor": "#27dab7",
+        "color": "white"
+    },
+    {
+        "label": "Branding",
+        "bgColor": "#ffdc26",
+        "color": "black"
+    },
+    {
+        "label": "Slide Decks",
+        "bgColor": "#fb421f",
+        "color": "white"
+    },
+    {
+        "label": "Webflow",
+        "bgColor": "#9f26ff",
+        "color": "white"
+    },
+    {
+        "label": "Social media",
+        "bgColor": "#fb421f",
+        "color": "white"
+    },
+    {
+        "label": "Icons",
+        "bgColor": "#ffdc26",
+        "color": "black"
+    },
+    {
+        "label": "Brand Guides",
+        "bgColor": "#3e89ff",
+        "color": "white"
+    },
+    {
+        "label": "Blog Graphics",
+        "bgColor": "#27dab7",
+        "color": "white"
+    }
+]

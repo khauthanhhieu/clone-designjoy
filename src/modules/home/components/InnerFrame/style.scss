@@ -263,4 +263,40 @@
             }
         }
     }
+
+    .services {
+        padding: 0 5% 40px;
+
+        .header {
+            max-width: 630px;
+            margin: auto;
+            text-align: center;
+        }
+
+        &__tagsWrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            max-width: 850px;
+            justify-content: center;
+            margin: 60px auto 60px auto;
+
+            .tag {
+                display: flex;
+                padding: 16px 24px;
+                border-radius: 100vw;
+                font-size: 14px;
+            }
+        }
+
+        &__workFlex {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+
+            > img {
+                border-radius: 8px;
+            }
+        }
+    }
 }

@@ -1,5 +1,13 @@
 import TopNav from "@/modules/home/components/TopNav";
-import InnerFrame, { Hero, Slider, HowItWorks, Quote, Benefits } from "@/modules/home/components/InnerFrame";
+import InnerFrame,
+{
+    Hero,
+    Slider,
+    HowItWorks,
+    Quote,
+    Benefits,
+    Services,
+} from "@/modules/home/components/InnerFrame";
 
 const Home = () => {
     return (
@@ -11,6 +19,7 @@ const Home = () => {
                 <HowItWorks />
                 <Quote />
                 <Benefits />
+                <Services />
             </InnerFrame>
         </>
     )
